@@ -24,7 +24,7 @@ for tweet in tweepy.Cursor(api.search, q="#reigen OR #reigenredraw OR #redrawrei
 	try:
 		#print('Tweet Liked')
 		tweet.retweet()
-		time.sleep(15)
+		time.sleep(300)
 	except tweepy.TweepError as e:
 		print(e.reason)
 	except StopIteration:
