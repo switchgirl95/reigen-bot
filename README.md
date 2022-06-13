@@ -1,4 +1,4 @@
-# reigen-bot
+# Reigen retweet bot!
 
 A simple twitter bot that automatically retweets tweets with hashtags relating to Reigen Arataka
 
