@@ -19,7 +19,7 @@ user = api.me()
 search = '#reigen'
 nrTweets = 10
 
-for tweet in tweepy.Cursor(api.search, q="#reigen OR #reigenredraw OR #redrawreigen OR #reigenarataka OR #aratakareigen OR #100daysofMobPsycho -nsfw -mpreg -#reitome -#mobrei -#mobreigen -#mobxreigen -#reimob -#indiefilm").items():
+for tweet in tweepy.Cursor(api.search, q="#reigen OR #reigenredraw OR #redrawreigen OR #reigenarataka OR #aratakareigen OR #100daysofMobPsycho -nsfw -mpreg -#reitome -#mobrei -#mobreigen -#mobxreigen -#reimob -#indiefilm -#indiegame -#100DaysofCode").items():
 #for tweet in tweepy.Cursor(api.search, search).items(nrTweets):
 	try:
 		#print('Tweet Liked')
